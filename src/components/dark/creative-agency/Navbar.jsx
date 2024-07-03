@@ -6,7 +6,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg bord blur">
         <div className="container">
           <a className="logo icon-img-100" href="#">
-            <img src="/dark/assets/imgs/logo-light.png" alt="logo" />
+            <img src="/logo.png" alt="logo" />
           </a>
 
           <div
@@ -26,51 +26,7 @@ function Navbar() {
                   <span className="rolling-text">Home</span>
                 </a>
                 <div className="dropdown-menu">
-                  <a className="dropdown-item" href="/dark/home-main">
-                    Main Home
-                  </a>
-                  <a
-                    className="dropdown-item"
-                    href="/dark/home-startup-onepage"
-                  >
-                    Modern Startup
-                  </a>
-                  <a
-                    className="dropdown-item"
-                    href="/dark/home-creative-agency"
-                  >
-                    Creative Agency
-                  </a>
-                  <a className="dropdown-item" href="/dark/home-modern-agency">
-                    Modern Agency
-                  </a>
-                  <a
-                    className="dropdown-item"
-                    href="/dark/home-creative-portfolio"
-                  >
-                    Creative Portfolio
-                  </a>
-                  <a className="dropdown-item" href="/dark/home-digital-agency">
-                    Digital Agency
-                  </a>
-                  <a className="dropdown-item" href="/dark/home-freelancer">
-                    Freelancer
-                  </a>
-                  <a className="dropdown-item" href="/dark/home-personal-vcard">
-                    Personal vCard
-                  </a>
-                  <a
-                    className="dropdown-item"
-                    href="/dark/home-minimal-portfolio"
-                  >
-                    Minimal Portfolio
-                  </a>
-                  <a
-                    className="dropdown-item"
-                    href="/dark/home-asymmetric-portfolio"
-                  >
-                    Asymmetric Portfolio
-                  </a>
+                 
                 </div>
               </li>
               <li className="nav-item dropdown">
@@ -96,7 +52,7 @@ function Navbar() {
                           </div>
                           <div className="links row">
                             <div className="col-lg-4">
-                              <a
+                              {/* <a
                                 className="dropdown-item"
                                 href="/dark/portfolio-standard"
                               >
@@ -247,7 +203,7 @@ function Navbar() {
                                 href="/dark/project6"
                               >
                                 project6
-                              </a>
+                              </a> */}
                             </div>
                           </div>
                         </div>
@@ -294,52 +250,14 @@ function Navbar() {
                     <a href="#0">
                       Services <i className="fas fa-angle-right icon-arrow"></i>
                     </a>
-                    <ul className="dropdown-side">
-                      <li>
-                        <a className="dropdown-item" href="/dark/page-services">
-                          Services 1
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="dropdown-item"
-                          href="/dark/page-services2"
-                        >
-                          Services 2
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="dropdown-item"
-                          href="/dark/page-services-details"
-                        >
-                          Services Details
-                        </a>
-                      </li>
-                    </ul>
+                    
                   </li>
                   <li className="dropdown-item">
                     <a href="#0">
                       Contact Us{' '}
                       <i className="fas fa-angle-right icon-arrow"></i>
                     </a>
-                    <ul className="dropdown-side">
-                      <li>
-                        <a className="dropdown-item" href="/dark/page-contact">
-                          Contact Us 1
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="/dark/page-contact2">
-                          Contact Us 2
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="/dark/page-contact3">
-                          Contact Us 3
-                        </a>
-                      </li>
-                    </ul>
+                   
                   </li>
                   <li>
                     <a className="dropdown-item" href="/dark/page-team">

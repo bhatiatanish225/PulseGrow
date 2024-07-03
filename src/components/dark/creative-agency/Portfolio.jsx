@@ -21,7 +21,7 @@ function Portfolio() {
           <h6 className="sub-title main-color mb-25">Our Portfolio</h6>
           <div className="bord pt-25 bord-thin-top d-flex align-items-center">
             <h2 className="fw-600 text-u ls1">
-              Our featured <span className="fw-200">projects</span>
+              Our  <span className="fw-200">Creations</span>
             </h2>
             <div className="ml-auto">
               <div className="swiper-arrow-control">

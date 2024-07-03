@@ -38,9 +38,7 @@ function Header() {
               <div className="row justify-content-center mt-30">
                 <div className="col-md-9">
                   <p>
-                    Our team of experts is dedicated to helping you achieve your
-                    digital goals. From website design and development to SEO,
-                    PPC advertising, and social media marketing.
+                  Pulse: Breathing Life into Your Brand’s Story
                   </p>
                 </div>
               </div>
@@ -49,7 +47,7 @@ function Header() {
           <div className="col-lg-3 right-clumn">
             <div className="text-center">
               <div className="circle-button">
-                <a href="https://youtu.be/AzwC6umvd1s" className="vid">
+                <a href="https://www.instagram.com/reel/C8UDNnUBz_i/?igsh=ZXdpemZ5NWxzMzBm" className="vid">
                   <div className="rotate-circle fz-30 text-u">
                     <svg className="textcircle" viewBox="0 0 500 500">
                       <defs>
@@ -73,6 +71,7 @@ function Header() {
             </div>
             <div className="img">
               <img src="/dark/assets/imgs/intro/03.jpg" alt="" />
+             
             </div>
           </div>
         </div>
