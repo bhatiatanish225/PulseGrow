@@ -44,7 +44,7 @@ function Portfolio() {
           >
             {data.map((item, i) => (
               <SwiperSlide key={i}>
-                <div className="item">
+                <div className="item ">
                   <div className="img">
                     <img src={item.img} alt="" />
                   </div>

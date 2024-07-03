@@ -5,7 +5,7 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg bord blur">
         <div className="container">
-          <a className="logo icon-img-100" href="#">
+          <a className="logo icon-img-100" href="/">
             <img src="/logo.png" alt="logo" />
           </a>
 
@@ -337,7 +337,7 @@ function Navbar() {
 
       <div className="hamenu">
         <div className="logo icon-img-100">
-          <img src="/dark/assets/imgs/logo-light.png" alt="" />
+          <img src="/logo.png" alt="" />
         </div>
         <div className="close-menu cursor-pointer ti-close"></div>
         <div className="container">

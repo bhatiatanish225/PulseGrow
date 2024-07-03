@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet';
-import Footer from '../../components/dark/blog-details/Footer';
+import Footer from '../../components/dark/creative-agency/Footer';
 import Lines from '../../components/dark/common/Lines';
 import ProgressScroll from '../../components/dark/common/ProgressScroll';
 import Cursor from '../../components/dark/common/cusor';
@@ -11,7 +11,7 @@ export default function PageContact() {
   return (
     <>
       <Helmet>
-        <title>infolio</title>
+        <title>Pulse</title>
         <link rel="icon" href="/dark/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/dark/imgs/favicon.ico" />
         <link
