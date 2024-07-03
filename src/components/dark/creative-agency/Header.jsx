@@ -37,7 +37,7 @@ function Header() {
               </div>
               <div className="row justify-content-center mt-30">
                 <div className="col-md-9">
-                  <p>
+                  <p className=' text-yellow-500' style={{color:'light blue'}}>
                   Pulse: Breathing Life into Your Brand’s Story
                   </p>
                 </div>
