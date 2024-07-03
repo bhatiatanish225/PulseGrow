@@ -1,26 +1,26 @@
 [
   {
-    "img": "/dark/assets/imgs/works/1/1.jpg",
-    "title": "Nice guy with a smile",
-    "subTitle": "Graphic Designing",
-    "link": "/dark/project1"
+    "img": "/p1.png",
+    "title": "Election Portal for Government",
+    "subTitle": "",
+    "link": "https://electionspatiala.com/"
   },
   {
-    "img": "/dark/assets/imgs/works/1/2.jpg",
-    "title": "Nice guy with a smile",
+    "img": "/p2.png",
+    "title": "Portfolio 1",
     "subTitle": "Graphic Designing",
-    "link": "/dark/project2"
+    "link": "https://reyanshportal.vercel.app/"
   },
   {
-    "img": "/dark/assets/imgs/works/1/3.jpg",
-    "title": "Nice guy with a smile",
-    "subTitle": "Graphic Designing",
-    "link": "/dark/project3"
+    "img": "/p4.png",
+"title": "Organization website",
+"subTitle": "Graphic Designing",
+"link": "/dark/project4"
   },
   {
-    "img": "/dark/assets/imgs/works/1/4.jpg",
-    "title": "Nice guy with a smile",
+   "img": "/p3.png",
+    "title": "Portfolio 2",
     "subTitle": "Graphic Designing",
-    "link": "/dark/project4"
+    "link": "https://reyanshportal.vercel.app/"
   }
 ]

@@ -55,9 +55,7 @@ function Skills() {
                 <div className="col-lg-11">
                   <div className="text">
                     <p>
-                      We shifted our talents to frontier science because we
-                      wanted our work to have tangible, human-positive impact.
-                      Also, we get front row seats to the future.
+                    At Pulse, we understand the pulse of the digital landscape. We stay ahead of trends, leveraging the latest technologies to ensure your brand remains relevant and impactful. Partner with us to experience the synergy of creativity and strategy, and let us help you beat the competition with branded brilliance.
                     </p>
                   </div>
                   <div className="mt-50">
