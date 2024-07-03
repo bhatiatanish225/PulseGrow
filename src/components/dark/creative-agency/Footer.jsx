@@ -29,12 +29,12 @@ function Footer() {
               <div className="mb-40">
                 <h6 className="sub-title mb-30">Address</h6>
                 <h5 className="opacity-8">
-                  5919 Trussville <br /> Crossings Pkwy, Birmingham
+                  {/* 5919 Trussville <br /> Crossings Pkwy, Birmingham */}
                 </h5>
               </div>
 
               <a href="#0" className="underline">
-                <span className="fz-22 main-color">+2 456 (343) 24 45</span>
+                <span className="fz-22 main-color">+8112239954</span>
               </a>
             </div>
           </div>
@@ -104,11 +104,9 @@ function Footer() {
           </div>
           <div className="ml-auto">
             <p className="fz-14">
-              © 2024 InFolio is Proudly Powered by{' '}
+              © 2024 
               <span className="underline main-color">
-                <a href="https://themeforest.net/user/UiCamp" target="_blank">
-                  UiCamp
-                </a>
+               Pulse Grow
               </span>
             </p>
           </div>

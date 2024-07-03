@@ -6,7 +6,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg bord blur">
         <div className="container">
           <a className="logo icon-img-100" href="#">
-            <img src="/dark/assets/imgs/logo-light.png" alt="logo" />
+            <img src="/logo.png" alt="logo" />
           </a>
 
           <div
@@ -26,7 +26,7 @@ function Navbar() {
                   <span className="rolling-text">Home</span>
                 </a>
                 <div className="dropdown-menu">
-                  <a className="dropdown-item" href="/dark/home-main">
+                  {/* <a className="dropdown-item" href="/dark/home-main">
                     Main Home
                   </a>
                   <a
@@ -70,7 +70,7 @@ function Navbar() {
                     href="/dark/home-asymmetric-portfolio"
                   >
                     Asymmetric Portfolio
-                  </a>
+                  </a> */}
                 </div>
               </li>
               <li className="nav-item dropdown">
@@ -96,7 +96,7 @@ function Navbar() {
                           </div>
                           <div className="links row">
                             <div className="col-lg-4">
-                              <a
+                              {/* <a
                                 className="dropdown-item"
                                 href="/dark/portfolio-standard"
                               >
@@ -247,7 +247,7 @@ function Navbar() {
                                 href="/dark/project6"
                               >
                                 project6
-                              </a>
+                              </a> */}
                             </div>
                           </div>
                         </div>
