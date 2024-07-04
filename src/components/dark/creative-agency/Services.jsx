@@ -30,14 +30,14 @@ function Services() {
                   {item.title.split(' ')[0]} <br /> {item.title.split(' ')[1]}
                 </h5>
                 <p>{item.desc}</p>
-                <a href={item.link} className="rmore mt-30">
+                {/* <a href={item.link} className="rmore mt-30">
                   <span className="sub-title">Read More</span>
                   <img
                     src="/dark/assets/imgs/arrow-right.png"
                     alt=""
                     className="icon-img-20 ml-5"
                   />
-                </a>
+                </a> */}
               </div>
             </div>
           ))}

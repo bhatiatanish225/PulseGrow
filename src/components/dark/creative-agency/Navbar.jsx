@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 
 function Navbar() {
-  const [menuOpen, setMenuOpen] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
+    console.log("Toggling menu. Current state before toggle:", menuOpen);
     setMenuOpen(!menuOpen);
   };
 
@@ -17,32 +18,32 @@ function Navbar() {
           </a>
 
           <div
-            className="collapse navbar-collapse justify-content-center hidden lg:flex"
+            className={`collapse navbar-collapse justify-content-center hidden lg:flex ${menuOpen ? 'show' : ''}`}
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav flex">
               <li className="nav-item">
-                <Link className="nav-link" to="home" smooth={true} duration={500}>
+                <Link className="nav-link" to="home" smooth={true} duration={500} onClick={toggleMenu}>
                   <span className="rolling-text">Home</span>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="services" smooth={true} duration={500}>
+                <Link className="nav-link" to="services" smooth={true} duration={500} onClick={toggleMenu}>
                   <span className="rolling-text">Services</span>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="creations" smooth={true} duration={500}>
+                <Link className="nav-link" to="creations" smooth={true} duration={500} onClick={toggleMenu}>
                   <span className="rolling-text">Our Creations</span>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="clients" smooth={true} duration={500}>
+                <Link className="nav-link" to="clients" smooth={true} duration={500} onClick={toggleMenu}>
                   <span className="rolling-text">Clients</span>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="contact" smooth={true} duration={500}>
+                <Link className="nav-link" to="contact" smooth={true} duration={500} onClick={toggleMenu}>
                   <span className="rolling-text">Contact</span>
                 </Link>
               </li>
@@ -58,11 +59,11 @@ function Navbar() {
       </nav>
 
       {menuOpen && (
-        <div className="hamenu">
+        <div className="hamenu ">
           <div className="logo icon-img-100">
-            <img src="/logo.png" alt="" />
+            <img src="/logo.png" alt="logo" />
           </div>
-          <div className="close-menu cursor-pointer ti-close" onClick={toggleMenu}></div>
+          <div className=" close-menu cursor-pointer ti-close" onClick={toggleMenu}></div>
           <div className="container">
             <div className="row">
               <div className="col-lg-2">

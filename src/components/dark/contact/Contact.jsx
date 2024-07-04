@@ -33,10 +33,10 @@ function Contact() {
               </div>
               <div className="phone fz-30 fw-600 mt-30 underline main-color">
                 <a href="+91 9306515524 ">Tanish Bhatia <br/>(+91 9306515524)</a>
-                <a href="+91 8112239954">Reyansh Gahlot<br/>(+91 8112239954)</a>
+                
               </div>
               <ul className="rest social-text d-flex mt-60">
-                <li className="mr-30">
+                {/* <li className="mr-30">
                   <a href="#0" className="hover-this">
                     <span className="hover-anim">Facebook</span>
                   </a>
@@ -55,7 +55,7 @@ function Contact() {
                   <a href="#0" className="hover-this">
                     <span className="hover-anim">Instagram</span>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
