@@ -3,7 +3,7 @@ import data from '../../../data/services.json';
 
 function Services() {
   return (
-    <section className="services-boxs section-padding pb-0">
+    <section id="servicesss" className="services-boxs section-padding pb-0">
       <div className="container">
         <div className="sec-head mb-80">
           <h6 className="sub-title main-color mb-25">Our Specialize</h6>

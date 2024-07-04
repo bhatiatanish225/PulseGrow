@@ -16,6 +16,9 @@ function Header() {
     return () => tl.kill();
   }, []);
   return (
+    <section id ="home">
+
+   
     <div className="header crev-agency-header">
       <div className="container">
         <div className="row">
@@ -77,6 +80,7 @@ function Header() {
         </div>
       </div>
     </div>
+    </section>
   );
 }
 

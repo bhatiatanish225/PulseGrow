@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 function Navbar() {
   return (
@@ -10,324 +11,39 @@ function Navbar() {
           </a>
 
           <div
-            className="collapse navbar-collapse justify-content-center"
+            className="collapse navbar-collapse justify-content-center hidden lg:flex"
             id="navbarSupportedContent"
           >
-            <ul className="navbar-nav">
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
+            <ul className="navbar-nav flex">
+              <li className="nav-item" data-scroll-nav="0">
+                <Link className="nav-link" to="home" smooth={true} duration={500}>
                   <span className="rolling-text">Home</span>
-                </a>
-                <div className="dropdown-menu">
-                 
-                </div>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  <span className="rolling-text">Portfolio</span>
-                </a>
-                <div className="dropdown-menu mega-menu">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-lg-6">
-                        <div className="clumn mb-80">
-                          <div className="title">
-                            <h6 className="sub-title ls1 pb-20 bord-thin-bottom">
-                              Portfolio Type
-                            </h6>
-                          </div>
-                          <div className="links row">
-                            <div className="col-lg-4">
-                              {/* <a
-                                className="dropdown-item"
-                                href="/dark/portfolio-standard"
-                              >
-                                Standerd
-                              </a>
-                              <a
-                                className="dropdown-item"
-                                href="/dark/portfolio-gallery"
-                              >
-                                Gallery
-                              </a>
-                              <a
-                                className="dropdown-item"
-                                href="/dark/portfolio-metro"
-                              >
-                                Metro
-                              </a>
-                            </div>
-                            <div className="col-lg-4">
-                              <a className="dropdown-item" href="/dark/masonry">
-                                Masonry
-                              </a>
-                              <a
-                                className="dropdown-item"
-                                href="/dark/portfolio-caption-curso"
-                              >
-                                Caption Cursor
-                              </a>
-                              <a className="dropdown-item" href="/dark/outline">
-                                Outline
-                              </a>
-                            </div>
-                            <div className="col-lg-4">
-                              <a
-                                className="dropdown-item"
-                                href="/dark/portfolio-parallax"
-                              >
-                                Parallax
-                              </a>
-                              <a
-                                className="dropdown-item"
-                                href="/dark/portfolio-sticky"
-                              >
-                                Sticky
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-lg-6">
-                        <div className="clumn">
-                          <div className="title">
-                            <h6 className="sub-title ls1 pb-20 bord-thin-bottom">
-                              Showcases
-                            </h6>
-                          </div>
-                          <div className="links row">
-                            <div className="col-lg-4">
-                              <a
-                                className="dropdown-item"
-                                href="/dark/showcase-fullscreen"
-                              >
-                                Parallax Slider
-                              </a>
-                              <a
-                                className="dropdown-item"
-                                href="/dark/showcase-carousel"
-                              >
-                                Showcase Carousel
-                              </a>
-                            </div>
-                            <div className="col-lg-4">
-                              <a
-                                className="dropdown-item"
-                                href="/dark/showcase-half-slider"
-                              >
-                                Creative Slider
-                              </a>
-                              <a
-                                className="dropdown-item"
-                                href="/dark/showcase-interactive-full"
-                              >
-                                Interactive Full
-                              </a>
-                            </div>
-                            <div className="col-lg-4">
-                              <a
-                                className="dropdown-item"
-                                href="/dark/showcase-interactive-center"
-                              >
-                                Interactive Center
-                              </a>
-                              <a
-                                className="dropdown-item"
-                                href="/dark/showcase-interactive-vertical"
-                              >
-                                Interactive Vertical
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-lg-6">
-                        <div className="clumn">
-                          <div className="title">
-                            <h6 className="sub-title ls1 pb-20 bord-thin-bottom">
-                              Portfolio Single
-                            </h6>
-                          </div>
-                          <div className="links row">
-                            <div className="col-lg-4">
-                              <a
-                                className="dropdown-item"
-                                href="/dark/project1"
-                              >
-                                project1
-                              </a>
-                              <a
-                                className="dropdown-item"
-                                href="/dark/project2"
-                              >
-                                project2
-                              </a>
-                            </div>
-                            <div className="col-lg-4">
-                              <a
-                                className="dropdown-item"
-                                href="/dark/project3"
-                              >
-                                project3
-                              </a>
-                              <a
-                                className="dropdown-item"
-                                href="/dark/project4"
-                              >
-                                project4
-                              </a>
-                            </div>
-                            <div className="col-lg-4">
-                              <a
-                                className="dropdown-item"
-                                href="/dark/project5"
-                              >
-                                project5
-                              </a>
-                              <a
-                                className="dropdown-item"
-                                href="/dark/project6"
-                              >
-                                project6
-                              </a> */}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  <span className="rolling-text">Pages</span>
-                </a>
-                <ul className="dropdown-menu">
-                  <li className="dropdown-item">
-                    <a href="#0">
-                      About Us <i className="fas fa-angle-right icon-arrow"></i>
-                    </a>
-                    <ul className="dropdown-side">
-                      <li>
-                        <a className="dropdown-item" href="/dark/page-about">
-                          About Us 1
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="/dark/page-about2">
-                          About Us 2
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="/dark/page-about3">
-                          About Us 3
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="dropdown-item">
-                    <a href="#0">
-                      Services <i className="fas fa-angle-right icon-arrow"></i>
-                    </a>
-                    
-                  </li>
-                  <li className="dropdown-item">
-                    <a href="#0">
-                      Contact Us{' '}
-                      <i className="fas fa-angle-right icon-arrow"></i>
-                    </a>
-                   
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/dark/page-team">
-                      Our Team
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/dark/page-team-single">
-                      Team Details
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/dark/page-FAQS">
-                      FAQS
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/dark/page-error-404">
-                      Error 404
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  <span className="rolling-text">Blogs</span>
-                </a>
-                <div className="dropdown-menu">
-                  <a className="dropdown-item" href="/dark/blog-classic">
-                    Blog Standerd
-                  </a>
-                  <a className="dropdown-item" href="/dark/blog-list">
-                    Blog List
-                  </a>
-                  <a className="dropdown-item" href="/dark/blog-list2">
-                    Blog List 2
-                  </a>
-                  <a className="dropdown-item" href="/dark/blog-details">
-                    Blog Details
-                  </a>
-                </div>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/dark/page-contact">
-                  <span className="rolling-text">Contact Us</span>
-                </a>
+                <Link className="nav-link" to="servicesss" smooth={true} duration={500}>
+                  <span className="rolling-text">Services</span>
+                </Link>
+              </li>
+              <li className="nav-item" data-scroll-nav="3">
+                <Link className="nav-link" to="creations" smooth={true} duration={500}>
+                  <span className="rolling-text">Our Creations</span>
+                </Link>
+              </li>
+              <li className="nav-item" data-scroll-nav="4">
+                <Link className="nav-link" to="client" smooth={true} duration={500}>
+                  <span className="rolling-text">Clients</span>
+                </Link>
+              </li>
+              <li className="nav-item" data-scroll-nav="6">
+                <Link className="nav-link" to="contact" smooth={true} duration={500}>
+                  <span className="rolling-text">Contact</span>
+                </Link>
               </li>
             </ul>
           </div>
 
-          <div className="search-form">
-            <div className="form-group">
-              <input type="text" name="search" placeholder="Search" />
-              <button>
-                <span className="pe-7s-search"></span>
-              </button>
-            </div>
-            <div className="search-icon">
-              <span className="pe-7s-search open-search"></span>
-              <span className="pe-7s-close close-search"></span>
-            </div>
-          </div>
-          <div className="topnav">
+          <div className="topnav hidden lg:block">
             <div className="menu-icon cursor-pointer">
               <span className="icon ti-align-right"></span>
             </div>
@@ -352,512 +68,49 @@ function Navbar() {
             <div className="col-lg-7">
               <div className="menu-links">
                 <ul className="main-menu rest">
-                  <li>
+                  <li data-scroll-nav="0">
                     <div className="o-hidden">
                       <div className="link cursor-pointer dmenu">
-                        <span className="fill-text" data-text="Home">
+                        <Link className="fill-text" to="home" smooth={true} duration={500}>
                           Home
-                        </span>{' '}
-                        <i></i>
+                        </Link>
                       </div>
                     </div>
-                    <div className="sub-menu">
-                      <ul>
-                        <li>
-                          <a href="/dark/home-main" className="sub-link">
-                            Main Home
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/dark/home-startup-onepage"
-                            className="sub-link"
-                          >
-                            Modern Startup
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/dark/home-creative-agency"
-                            className="sub-link"
-                          >
-                            Creative Agency
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/dark/home-modern-agency"
-                            className="sub-link"
-                          >
-                            Modern Agency
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/dark/home-creative-portfolio"
-                            className="sub-link"
-                          >
-                            Creative Portfolio
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/dark/home-digital-agency"
-                            className="sub-link"
-                          >
-                            Digital Agency
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/dark/home-freelancer" className="sub-link">
-                            Freelancer
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/dark/home-personal-vcard"
-                            className="sub-link"
-                          >
-                            Personal vCard
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/dark/home-minimal-portfolio"
-                            className="sub-link"
-                          >
-                            Minimal Portfolio
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/dark/home-asymmetric-portfolio"
-                            className="sub-link"
-                          >
-                            Asymmetric Portfolio
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
                   </li>
-                  <li>
+                  <li data-scroll-nav="1">
                     <div className="o-hidden">
                       <div className="link cursor-pointer dmenu">
-                        <span className="fill-text" data-text="Pages">
-                          Pages
-                        </span>{' '}
-                        <i></i>
+                        <Link className="fill-text" to="servicesss" smooth={true} duration={500}>
+                          Services
+                        </Link>
                       </div>
                     </div>
-                    <div className="sub-menu no-bord">
-                      <ul>
-                        <li>
-                          <div className="o-hidden">
-                            <div className="link cursor-pointer sub-dmenu">
-                              <span className="fill-text" data-text="About Us">
-                                About Us
-                              </span>{' '}
-                              <i></i>
-                            </div>
-                          </div>
-                          <div className="sub-menu2">
-                            <ul>
-                              <li>
-                                <a href="/dark/page-about" className="sub-link">
-                                  About Us v1
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/page-about2"
-                                  className="sub-link"
-                                >
-                                  About Us v2
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/page-about3"
-                                  className="sub-link"
-                                >
-                                  About Us v3
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <div className="link cursor-pointer sub-dmenu">
-                              <span className="fill-text" data-text="Services">
-                                Services
-                              </span>{' '}
-                              <i></i>
-                            </div>
-                          </div>
-                          <div className="sub-menu2">
-                            <ul>
-                              <li>
-                                <a
-                                  href="/dark/page-services"
-                                  className="sub-link"
-                                >
-                                  Services v1
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/page-services2"
-                                  className="sub-link"
-                                >
-                                  Services v2
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/page-services-details"
-                                  className="sub-link"
-                                >
-                                  Services Details
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <div className="link cursor-pointer sub-dmenu">
-                              <span className="fill-text" data-text="Contact">
-                                Contact
-                              </span>{' '}
-                              <i></i>
-                            </div>
-                          </div>
-                          <div className="sub-menu2">
-                            <ul>
-                              <li>
-                                <a
-                                  href="/dark/page-contact"
-                                  className="sub-link"
-                                >
-                                  Contact v1
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/page-contact2"
-                                  className="sub-link"
-                                >
-                                  Contact v2
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/page-contact3"
-                                  className="sub-link"
-                                >
-                                  Contact v3
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <div className="link cursor-pointer sub-dmenu">
-                              <span className="fill-text" data-text="Team">
-                                Team
-                              </span>{' '}
-                              <i></i>
-                            </div>
-                          </div>
-                          <div className="sub-menu2">
-                            <ul>
-                              <li>
-                                <a href="/dark/page-team" className="sub-link">
-                                  Our Team
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/page-team-single"
-                                  className="sub-link"
-                                >
-                                  Team Details
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <div className="link cursor-pointer sub-dmenu">
-                              <span className="fill-text" data-text="Others">
-                                Others
-                              </span>{' '}
-                              <i></i>
-                            </div>
-                          </div>
-                          <div className="sub-menu2">
-                            <ul>
-                              <li>
-                                <a href="/dark/page-FAQS" className="sub-link">
-                                  FAQS
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/page-error-404"
-                                  className="sub-link"
-                                >
-                                  Error 404
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
                   </li>
-                  <li>
+                  <li data-scroll-nav="3">
                     <div className="o-hidden">
                       <div className="link cursor-pointer dmenu">
-                        <span className="fill-text" data-text="Portfolio">
-                          Portfolio
-                        </span>{' '}
-                        <i></i>
+                        <Link className="fill-text" to="creactions" smooth={true} duration={500}>
+                          Our Creations
+                        </Link>
                       </div>
                     </div>
-                    <div className="sub-menu no-bord">
-                      <ul>
-                        <li>
-                          <div className="o-hidden">
-                            <div className="link cursor-pointer sub-dmenu">
-                              <span
-                                className="fill-text"
-                                data-text="Portfolio Type"
-                              >
-                                Portfolio Type
-                              </span>{' '}
-                              <i></i>
-                            </div>
-                          </div>
-                          <div className="sub-menu2">
-                            <ul>
-                              <li>
-                                <a
-                                  href="/dark/portfolio-standard"
-                                  className="sub-link"
-                                >
-                                  Standerd
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/portfolio-gallery"
-                                  className="sub-link"
-                                >
-                                  Gallery
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/portfolio-metro"
-                                  className="sub-link"
-                                >
-                                  Metro
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/dark/masonry" className="sub-link">
-                                  Masonry
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/portfolio-caption-curso"
-                                  className="sub-link"
-                                >
-                                  Caption Cursor
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/dark/outline" className="sub-link">
-                                  Outline
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/portfolio-parallax"
-                                  className="sub-link"
-                                >
-                                  Parallax
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/portfolio-sticky"
-                                  className="sub-link"
-                                >
-                                  Sticky
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <div className="link cursor-pointer sub-dmenu">
-                              <span className="fill-text" data-text="Showcases">
-                                Showcases
-                              </span>{' '}
-                              <i></i>
-                            </div>
-                          </div>
-                          <div className="sub-menu2">
-                            <ul>
-                              <li>
-                                <a
-                                  href="/dark/showcase-fullscreen"
-                                  className="sub-link"
-                                >
-                                  Parallax Slider
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/showcase-carousel"
-                                  className="sub-link"
-                                >
-                                  Showcase Carousel
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/showcase-half-slider"
-                                  className="sub-link"
-                                >
-                                  Creative Slider
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/showcase-interactive-full"
-                                  className="sub-link"
-                                >
-                                  Interactive Full
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/showcase-interactive-center"
-                                  className="sub-link"
-                                >
-                                  Interactive Center
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/showcase-interactive-vertical"
-                                  className="sub-link"
-                                >
-                                  Interactive Vertical
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <div className="link cursor-pointer sub-dmenu">
-                              <span
-                                className="fill-text"
-                                data-text="Portfolio Single"
-                              >
-                                Portfolio Single
-                              </span>{' '}
-                              <i></i>
-                            </div>
-                          </div>
-                          <div className="sub-menu2">
-                            <ul>
-                              <li>
-                                <a href="/dark/project1" className="sub-link">
-                                  project1
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/dark/project2" className="sub-link">
-                                  project2
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/dark/project3" className="sub-link">
-                                  project3
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/dark/project4" className="sub-link">
-                                  project4
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/dark/project5" className="sub-link">
-                                  project5
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/dark/project6" className="sub-link">
-                                  project6
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
                   </li>
-                  <li>
+                  <li data-scroll-nav="4">
                     <div className="o-hidden">
                       <div className="link cursor-pointer dmenu">
-                        <span className="fill-text" data-text="Blogs">
-                          Blogs
-                        </span>{' '}
-                        <i></i>
+                        <Link className="fill-text" to="clients" smooth={true} duration={500}>
+                          Clients
+                        </Link>
                       </div>
                     </div>
-                    <div className="sub-menu">
-                      <ul>
-                        <li>
-                          <a className="sub-link" href="/dark/blog-classic">
-                            Standard
-                          </a>
-                        </li>
-                        <li>
-                          <a className="sub-link" href="/dark/blog-list">
-                            Blog List
-                          </a>
-                        </li>
-                        <li>
-                          <a className="sub-link" href="/dark/blog-list2">
-                            Blog List 2
-                          </a>
-                        </li>
-                        <li>
-                          <a className="sub-link" href="/dark/blog-details">
-                            Blog Details
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
                   </li>
-                  <li>
+                  <li data-scroll-nav="6">
                     <div className="o-hidden">
-                      <a href="/dark/page-contact3" className="link">
-                        <span className="fill-text" data-text="Contact Us">
-                          Contact Us
-                        </span>
-                      </a>
+                      <div className="link cursor-pointer dmenu">
+                        <Link className="fill-text" to="contact" smooth={true} duration={500}>
+                          Contact
+                        </Link>
+                      </div>
                     </div>
                   </li>
                 </ul>
@@ -868,41 +121,31 @@ function Navbar() {
                 <div className="item mb-50">
                   <h6 className="sub-title mb-15 opacity-7">Address</h6>
                   <h5>
-                    541 Melville Geek, <br /> Palo Alto, CA 94301
+                    TIET
+                    <br /> Patiala,Punjab
                   </h5>
                 </div>
                 <div className="item mb-50">
                   <h6 className="sub-title mb-15 opacity-7">Social Media</h6>
                   <ul className="rest social-text">
-                    <li className="mb-10">
-                      <a href="#0" className="hover-this">
-                        <span className="hover-anim">Facebook</span>
-                      </a>
-                    </li>
-                    <li className="mb-10">
-                      <a href="#0" className="hover-this">
-                        <span className="hover-anim">Twitter</span>
-                      </a>
-                    </li>
-                    <li className="mb-10">
-                      <a href="#0" className="hover-this">
-                        <span className="hover-anim">LinkedIn</span>
-                      </a>
-                    </li>
+
                     <li>
-                      <a href="#0" className="hover-this">
+                      <a href="https://www.instagram.com/pulse_grow/" className="hover-this">
                         <span className="hover-anim">Instagram</span>
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div className="item mb-40">
-                  <h6 className="sub-title mb-15 opacity-7">Contact Us</h6>
+                  <h6 className="sub-title mb-15 opacity-7">Contact US</h6>
                   <h5>
-                    <a href="#0">Hello@email.com</a>
+                    <a href="mailto:rgahlot_be22@thapar.edu">rgahlot_be22@thapar.edu</a>
+                    <a href="mailto:tbhatia0225@gmail.com">tbhatia0225@gmail.com</a>
+
                   </h5>
                   <h5 className="underline mt-10">
-                    <a href="#0">+1 840 841 25 69</a>
+                    <a href="tel:+8112239954">+91 8112239954</a>
+                    <a href="tel:+8112239954">+91 9306515524</a>
                   </h5>
                 </div>
               </div>

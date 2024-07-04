@@ -2,7 +2,7 @@ import React from 'react';
 
 function Numbers() {
   return (
-    <section className="numbers">
+    <section  id ="client" className="numbers">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-4 col-md-6">
