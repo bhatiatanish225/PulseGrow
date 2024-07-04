@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 function Skills() {
   return (
@@ -79,8 +80,11 @@ function Skills() {
                       href="#0"
                       className="butn-circle-text d-flex align-items-center"
                     >
-                      <h6 className="text">Try it for free</h6>
+                    
+                      <h6 className="text" >Contact Us</h6>
+                   
                       <div>
+                      <Link to="contact" smooth={true} duration={500}>
                         <span className="circle">
                           <svg
                             width="18"
@@ -95,6 +99,7 @@ function Skills() {
                             ></path>
                           </svg>
                         </span>
+                        </Link>
                       </div>
                     </a>
                   </div>

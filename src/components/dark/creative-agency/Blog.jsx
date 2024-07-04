@@ -39,7 +39,7 @@ function Blog() {
               <div className="cont">
                 <h5 className="mb-10 underline">
                   <a href="/dark/blog-details">
-                    The Highly Creative UI/UX Workflow from a Silicon Valley.
+                  Innovative Ideas for Running a Standout Fitness Business
                   </a>
                 </h5>
                 <div className="tags">
@@ -62,7 +62,7 @@ function Blog() {
             data-overlay-dark="4"
           >
             <div className="more ontop full-width">
-              <a href="/dark/blog-details">
+              <a href="https://medium.com/@ankurkashyap85/innovative-ideas-for-running-a-standout-fitness-buisness-8b1fdd54e96b" target='blank'>
                 <span>
                   Read More <i className="fas fa-arrow-right ml-10"></i>
                 </span>
@@ -82,7 +82,7 @@ function Blog() {
                   </div>
                   <div className="author-info">
                     <span className="fz-13 opacity-8 mb-5">Posted by</span>
-                    <h6 className="fz-18">Olivia Rhye</h6>
+                    <h6 className="fz-18">Reyansh</h6>
                   </div>
                 </div>
               </div>
@@ -91,8 +91,7 @@ function Blog() {
               <div className="cont">
                 <h5 className="mb-10 underline">
                   <a href="/dark/blog-details">
-                    Creativo Jóvenes: a Lead Designer&#39;s UI/UX Core
-                    Checklist.
+                  13 fitness marketing ideas to promote your gym
                   </a>
                 </h5>
                 <div className="tags">
@@ -115,7 +114,7 @@ function Blog() {
             data-overlay-dark="4"
           >
             <div className="more ontop full-width">
-              <a href="/dark/blog-details">
+              <a href="https://www.wix.com/blog/fitness/fitness-marketing-strategies?utm_source=google&utm_medium=cpc&utm_campaign=21355409421^161138661097^search%20-%20dsa&experiment_id=^^701645202145^&gad_source=1&gclid=CjwKCAjwkJm0BhBxEiwAwT1AXFHJvp9UE1hN8V68ckjlxYRFHdkBe0egKQoRTo9vlh-BJ8-mIp5etBoC--kQAvD_BwE" target='blank'>
                 <span>
                   Read More <i className="fas fa-arrow-right ml-10"></i>
                 </span>
@@ -135,7 +134,7 @@ function Blog() {
                   </div>
                   <div className="author-info">
                     <span className="fz-13 opacity-8 mb-5">Posted by</span>
-                    <h6 className="fz-18">Olivia Rhye</h6>
+                    <h6 className="fz-18">Ravi</h6>
                   </div>
                 </div>
               </div>
@@ -144,12 +143,11 @@ function Blog() {
               <div className="cont">
                 <h5 className="mb-10 underline">
                   <a href="/dark/blog-details">
-                    Definitive Guide to Make a Daily More Productive Working
-                    Flow.
+                  8 Ways to Increase Gym Revenue For Your Hybrid Fitness Business
                   </a>
                 </h5>
                 <div className="tags">
-                  <a href="/dark/blog-classic">Design</a>
+                  <a href="/dark/blog-classic">Idea</a>
                   <a href="/dark/blog-classic">Marketing</a>
                 </div>
               </div>
@@ -168,7 +166,7 @@ function Blog() {
             data-overlay-dark="4"
           >
             <div className="more ontop full-width">
-              <a href="/dark/blog-details">
+              <a href="https://www.glofox.com/blog/product-and-service-ideas-to-boost-gym-revenue/" target='blank'>
                 <span>
                   Read More <i className="fas fa-arrow-right ml-10"></i>
                 </span>

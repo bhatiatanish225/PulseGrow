@@ -5,7 +5,7 @@ import Cursor from '../../components/dark/common/cusor';
 import LoadingScreen from '../../components/dark/common/loader';
 import Blog from '../../components/dark/creative-agency/Blog';
 import Brands from '../../components/dark/creative-agency/Brands';
-import Footer from '../../components/dark/creative-agency/Footer';
+
 import Header from '../../components/dark/creative-agency/Header';
 import ImageScale from '../../components/dark/creative-agency/ImageScale';
 import Marquee from '../../components/dark/creative-agency/Marquee';
@@ -15,6 +15,8 @@ import Portfolio from '../../components/dark/creative-agency/Portfolio';
 import Services from '../../components/dark/creative-agency/Services';
 import Skills from '../../components/dark/creative-agency/Skills';
 import Testimonials from '../../components/dark/creative-agency/Testimonials';
+import Price from '../../components/dark/creative-agency/Price';
+import Contact from '../../components/dark/creative-agency/Contact';
 
 export default function HomeCreativeAgency() {
   return (
@@ -62,18 +64,44 @@ export default function HomeCreativeAgency() {
           <Navbar />
           <div id="smooth-content">
             <main className="main-bg pt-80 o-hidden">
-              <Header />
-              <Marquee />
-              <Services />
-              <Skills />
-              <Numbers />
-              <Portfolio />
-              <Testimonials />
-              <Brands />
-              <ImageScale />
-              <Blog />
+              <div id="home">
+                <Header />
+              </div>
+              <div id="marquee">
+                <Marquee />
+              </div>
+              <div id="services">
+                <Services />
+              </div>
+              <div id="skills">
+                <Skills />
+              </div>
+              <div id="numbers">
+                <Numbers />
+              </div>
+              <div id="portfolio">
+                <Portfolio />
+              </div>
+              <div id="clients">
+                <Testimonials />
+              </div>
+              <div id="brands">
+                <Brands />
+              </div>
+              <div id="imagescale">
+                <ImageScale />
+              </div>
+              <div id="blog">
+                <Blog />
+              </div>
+              <div id="price">
+                <Price/>
+              </div>
+              <div id="contact">
+                <Contact/>
+              </div>
             </main>
-            <Footer />
+            
           </div>
         </div>
       </body>
