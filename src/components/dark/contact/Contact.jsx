@@ -32,7 +32,8 @@ function Contact() {
                 </div>
               </div>
               <div className="phone fz-30 fw-600 mt-30 underline main-color">
-                <a href="#0">+1 840 841 25 69</a>
+                <a href="+91 9306515524 ">Tanish Bhatia(+91 9306515524)</a>
+                <a href="+91 8112239954">Reyansh Gahlot(+91 8112239954)</a>
               </div>
               <ul className="rest social-text d-flex mt-60">
                 <li className="mr-30">
