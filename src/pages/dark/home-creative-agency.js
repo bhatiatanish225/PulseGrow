@@ -22,7 +22,7 @@ export default function HomeCreativeAgency() {
   return (
     <>
       <Helmet>
-        <title>infolio</title>
+        <title>PulseGrow</title>
         <link rel="icon" href="/dark/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/dark/imgs/favicon.ico" />
         <link
