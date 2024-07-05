@@ -16,7 +16,7 @@ function ImageScale() {
         <div className="text-u text-center ontop">
           <h2 className="fz-70 fw-600">
             Boost Your <span className="fw-300">Business</span> Up <br />
-            <span className="fw-300">Ranking </span> High Lavel
+            <span className="fw-300">Ranking </span> High Level
           </h2>
         </div>
       </div>
