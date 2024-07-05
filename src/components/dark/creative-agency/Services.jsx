@@ -6,7 +6,7 @@ function Services() {
     <section id="servicesss" className="services-boxs section-padding pb-0">
       <div className="container">
         <div className="sec-head mb-80">
-          <h6 className="sub-title main-color mb-25">Our Specialize</h6>
+          <h6 className="sub-title main-color mb-25">Our Forte</h6>
           <div className="bord pt-25 bord-thin-top d-flex align-items-center">
             <h2 className="fw-600 text-u ls1">
               What We Have <span className="fw-200">to Offer</span>
