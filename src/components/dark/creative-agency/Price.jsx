@@ -137,7 +137,7 @@ function Price() {
               <div className="item sub-bg radius-10 d-flex align-items-center mt-30">
                 <div className="type">
                   <div className="icon-img-60 mb-10">
-                    <img src="/dark/assets/imgs/icon-img/shape1.png" alt="" />
+                    <img src="/pr.png" alt="" />
                   </div>
                   <h5 className="fw-600">Premium Package</h5>
                 </div>
