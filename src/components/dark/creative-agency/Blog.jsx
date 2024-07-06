@@ -11,10 +11,7 @@ function Blog() {
               Read Latest <span className="fw-200">News</span>
             </h2>
             <div className="ml-auto">
-              <a href="/dark/blog-list" className="go-more">
-                <span className="text">View all posts</span>
-                <span className="icon ti-arrow-top-right"></span>
-              </a>
+            
             </div>
           </div>
         </div>

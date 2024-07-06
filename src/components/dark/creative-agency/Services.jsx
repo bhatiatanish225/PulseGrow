@@ -6,16 +6,13 @@ function Services() {
     <section id="servicesss" className="services-boxs section-padding pb-0">
       <div className="container">
         <div className="sec-head mb-80">
-          <h6 className="sub-title main-color mb-25">Our Specialize</h6>
+          <h6 className="sub-title main-color mb-25">Our Forte</h6>
           <div className="bord pt-25 bord-thin-top d-flex align-items-center">
             <h2 className="fw-600 text-u ls1">
               What We Have <span className="fw-200">to Offer</span>
             </h2>
             <div className="ml-auto">
-              <a href="/dark/page-services" className="go-more">
-                <span className="text">View all services</span>
-                <span className="icon ti-arrow-top-right"></span>
-              </a>
+            
             </div>
           </div>
         </div>
@@ -30,14 +27,14 @@ function Services() {
                   {item.title.split(' ')[0]} <br /> {item.title.split(' ')[1]}
                 </h5>
                 <p>{item.desc}</p>
-                <a href={item.link} className="rmore mt-30">
+                {/* <a href={item.link} className="rmore mt-30">
                   <span className="sub-title">Read More</span>
                   <img
                     src="/dark/assets/imgs/arrow-right.png"
                     alt=""
                     className="icon-img-20 ml-5"
                   />
-                </a>
+                </a> */}
               </div>
             </div>
           ))}

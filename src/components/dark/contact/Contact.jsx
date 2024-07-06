@@ -19,10 +19,10 @@ function Contact() {
               </p>
               <div className="row">
                 <div className="col-md-6">
-                  <div className="morinfo mt-30">
-                    <h6 className="mb-15">Address</h6>
-                    <p>Besòs 1, 08174 Sant Cugat del Vallès, Barcelona</p>
-                  </div>
+                <div className="morinfo mt-50 pb-30 bord-thin-bottom">
+                <h6 className="mb-15">Address</h6>
+                <p>Thapar Institute of Engineering and Technology <br/>Patiala , Punjab</p>
+              </div>
                 </div>
                 <div className="col-md-6">
                   <div className="morinfo mt-30">
@@ -32,10 +32,11 @@ function Contact() {
                 </div>
               </div>
               <div className="phone fz-30 fw-600 mt-30 underline main-color">
-                <a href="#0">+1 840 841 25 69</a>
+                <a href="+91 9306515524 ">Tanish Bhatia <br/>(+91 9306515524)</a>
+                
               </div>
               <ul className="rest social-text d-flex mt-60">
-                <li className="mr-30">
+                {/* <li className="mr-30">
                   <a href="#0" className="hover-this">
                     <span className="hover-anim">Facebook</span>
                   </a>
@@ -54,7 +55,7 @@ function Contact() {
                   <a href="#0" className="hover-this">
                     <span className="hover-anim">Instagram</span>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

@@ -95,28 +95,21 @@ function Price() {
                   <div className="icon-img-60 mb-10">
                     <img src="/dark/assets/imgs/icon-img/shape1.png" alt="" />
                   </div>
-                  <h5 className="fw-600">Basic</h5>
+                  <h5 className="fw-600">Basic Package</h5>
                 </div>
                 <div className="cont ml-50">
                   <ul className="dot-list rest">
-                    <li className="mb-10">Guarenteed quality control</li>
-                    <li className="mb-10">Top quality service</li>
-                    <li className="mb-10">Best experts at your lease</li>
-                    <li>7 days free</li>
+                    <li className="mb-10">Website Design & Development: up to 5 pages</li>
+                    <li className="mb-10">Basic SEO Optimization</li>
+                    <li className="mb-10">CRM Setup and Integration</li>
+                    <li className="mb-10">Instagram Content Creation: 10 Posts</li>
                   </ul>
                 </div>
                 <div className="mount ml-auto text-center">
                   <h3 className="numb-font">
-                    <span className="fz-20">$</span> 19
+                  <span className="fz-40">₹9,999</span>
+                  <del className='fz-30'>₹12,999</del> <br />
                   </h3>
-                  <div>
-                    <a
-                      href="/dark/page-contact"
-                      className="butn butn-md butn-bord radius-30"
-                    >
-                      <span className="fz-13">Sign Up</span>
-                    </a>
-                  </div>
                 </div>
               </div>
               <div className="item main-colorbg radius-10 text-dark d-flex align-items-center">
@@ -124,61 +117,46 @@ function Price() {
                   <div className="icon-img-60 mb-10">
                     <img src="/dark/assets/imgs/icon-img/shape03.png" alt="" />
                   </div>
-                  <h5 className="fw-600">Standard</h5>
+                  <h5 className="fw-600">Standard Package</h5>
                 </div>
                 <div className="cont ml-50">
                   <ul className="dot-list rest">
-                    <li className="mb-10">Guarenteed quality control</li>
-                    <li className="mb-10">Top quality service</li>
-                    <li className="mb-10">Best experts at your lease</li>
-                    <li>7 days free</li>
+                    <li className="mb-10">Website Design & Development: up to 10 pages</li>
+                    <li className="mb-10">Basic SEO Optimization</li>
+                    <li className="mb-10">CRM Setup and Integration</li>
+                    <li className="mb-10">Instagram Content Creation: 15 Posts</li>
                   </ul>
                 </div>
                 <div className="mount ml-auto text-center">
                   <h3 className="numb-font">
-                    <span className="fz-20">$</span> 49
+                  <span className="fz-40">₹14,999</span>
+                  <del className='fz-30'>₹18,999</del> <br />
                   </h3>
-                  <div>
-                    <a
-                      href="/dark/page-contact"
-                      className="butn butn-md butn-bord text-dark radius-30"
-                    >
-                      <span className="fz-13">Sign Up</span>
-                    </a>
-                  </div>
                 </div>
               </div>
-
               <div className="item sub-bg radius-10 d-flex align-items-center mt-30">
                 <div className="type">
                   <div className="icon-img-60 mb-10">
-                    <img src="/dark/assets/imgs/icon-img/shape1.png" alt="" />
+                    <img src="/pr.png" alt="" />
                   </div>
-                  <h5 className="fw-600">Premium</h5>
+                  <h5 className="fw-600">Premium Package</h5>
                 </div>
                 <div className="cont ml-50">
                   <ul className="dot-list rest">
-                    <li className="mb-10">Guarenteed quality control</li>
-                    <li className="mb-10">Top quality service</li>
-                    <li className="mb-10">Best experts at your lease</li>
-                    <li>7 days free</li>
+                    <li className="mb-10">Unlimited Custom Pages</li>
+                    <li className="mb-10">Unlimited Revision</li>
+                    <li className="mb-10">Private Consultation</li>
+                    <li className="mb-10">Instagram Content Creation: 25 Posts</li>
                   </ul>
                 </div>
                 <div className="mount ml-auto text-center">
                   <h3 className="numb-font">
-                    <span className="fz-20">$</span> 19
+                    
+                    <span className="fz-40">₹19,999</span>
+                    <del className='fz-30'>₹24,999</del> <br />
                   </h3>
-                  <div>
-                    <a
-                      href="/dark/page-contact"
-                      className="butn butn-md butn-bord radius-30"
-                    >
-                      <span className="fz-13">Sign Up</span>
-                    </a>
-                  </div>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>

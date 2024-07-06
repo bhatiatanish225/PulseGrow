@@ -19,7 +19,11 @@ export default function Home() {
   return (
     <>
       <Helmet>
+<<<<<<< HEAD
         <title>Pulse Grow</title>
+=======
+        <title>PulseGrow</title>
+>>>>>>> a8dbc0fc3ad5acf8861f7bd955adfa9aaa4e3c72
         <link rel="icon" href="/dark/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/dark/imgs/favicon.ico" />
         <link
