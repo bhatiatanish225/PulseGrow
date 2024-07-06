@@ -38,6 +38,11 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
+                <Link className="nav-link" to="pricing" smooth={true} duration={500} onClick={toggleMenu}>
+                  <span className="rolling-text">Pricing</span>
+                </Link>
+              </li>
+              <li className="nav-item">
                 <Link className="nav-link" to="clients" smooth={true} duration={500} onClick={toggleMenu}>
                   <span className="rolling-text">Clients</span>
                 </Link>

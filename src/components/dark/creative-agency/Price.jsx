@@ -2,7 +2,7 @@ import React from 'react';
 
 function Price() {
   return (
-    <section className="price-hr section-padding pb-0">
+    <section id="pricing" className="price-hr section-padding pb-0">
       <div className="container">
         <div className="row">
           <div className="col-lg-5 valign">
